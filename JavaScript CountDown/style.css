@@ -10,11 +10,13 @@ body{
 
 h2{
     font-size: 5rem;
-    color: #F363FF;
+    color: #64a8f0;
+    text-align: center;
+    padding: 2rem;
 }
 
 .coming-soon{
-    min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,9 +27,8 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
 }
 
-img{
-    width: 50rem;
+.drawing{
+    width: 45rem;
 }
